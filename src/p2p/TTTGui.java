@@ -1,4 +1,4 @@
-package p2p;
+package TicTacToe.src.p2p;
 
 import java.awt.Color;
 import java.awt.event.ActionEvent;

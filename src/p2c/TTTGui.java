@@ -1,4 +1,4 @@
-package p2c;
+package TicTacToe.src.p2c;
 
 import java.awt.Color;
 import java.awt.event.ActionEvent;
@@ -12,6 +12,10 @@ import acm.program.GraphicsProgram;
 
 public class TTTGui extends GraphicsProgram {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	static final int ROW = 3;
 	static final int COL = 3;
 	GRect [][] board;

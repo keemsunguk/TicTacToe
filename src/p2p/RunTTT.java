@@ -1,4 +1,4 @@
-package p2p;
+package TicTacToe.src.p2p;
 
 public class RunTTT {
 

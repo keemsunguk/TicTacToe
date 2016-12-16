@@ -1,11 +1,11 @@
-package Skeleton;
+package TicTacToe.src.Skeleton;
 
 public class TTT {
 	public String [][] board = null;
 	
 	private static int ROWS = 3; 
 	private static int COLS = 3; 
-	private static String SPACE = " ";
+//	private static String SPACE = " ";
 	
 	/*
 	 * Constructor
@@ -26,7 +26,7 @@ public class TTT {
 	 */
 	public String toString() {
 		String local_board = "";
-		
+		local_board = String.valueOf(ROWS)+" by "+String.valueOf(COLS);
 		
 		return local_board;
 	}

@@ -1,4 +1,4 @@
-package p2c;
+package TicTacToe.src.p2c;
 import java.util.Scanner;
 
 public class TTT {
@@ -167,13 +167,14 @@ public class TTT {
 			}
 		}
 		set(row, col, XorO);
+		scan.close();
 	}
 	
 	//For GUI
 	public boolean makeMove(int r, int c, String XorO) {
         int row = r;
         int col = c;
-		boolean inputValid = false;
+//		boolean inputValid = false;
         
 		if(isValid(row, col)) {
 			set(row, col, XorO);
